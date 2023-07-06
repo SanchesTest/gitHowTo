@@ -99,6 +99,14 @@
                 <td></td>
             </tr>
             <tr>
+                <th colspan="3">История</th>
+            </tr>
+            <tr>
+                <th>Команда</th>
+                <th>Описание</th>
+                <th>Примечание</th>
+            </tr>
+            <tr>
                 <td>git log</td>
                 <td>списка произведенных изменений</td>
                 <td></td>
@@ -106,6 +114,11 @@
             <tr>
                 <td>git log --pretty=oneline</td>
                 <td>списки произведенных изменений в одну строку</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>git log --all --pretty=format:"%h %cd %s (%an)" --since='7 days ago'</td>
+                <td>просмотра изменений, сделанных за последнюю неделю только изменения, которые сделал я</td>
                 <td></td>
             </tr>
         </tbody>
