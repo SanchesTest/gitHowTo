@@ -1,0 +1,13 @@
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #252525;
+}
+th {
+    background-color: #4a96f8;
+}
+td:nth-child(2) {
+    font-weight: bold;
+}
