@@ -8,6 +8,6 @@ th, td {
 th {
     background-color: #4a96f8;
 }
-td:nth-child(2) {
+td:first-child {
     font-weight: bold;
 }
