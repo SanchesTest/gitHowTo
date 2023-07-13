@@ -16,3 +16,7 @@ td:first-child {
 tbody tr td:first-child {
     white-space: nowrap;
 } 
+
+.hidden {
+    display: none;
+}
